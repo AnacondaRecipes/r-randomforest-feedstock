@@ -10,8 +10,8 @@ package:
 source:
   fn: randomForest_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/randomForest_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/randomForest/randomForest_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/randomForest_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/randomForest/randomForest_{{ version }}.tar.gz
   sha256: 6e512f8f88a51c01a918360acba61f1f39432f6e690bc231b7864218558b83c4
 
 
